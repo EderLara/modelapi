@@ -36,7 +36,7 @@ batch_size = 128
 epochs = 10
 
 # Definir el callback ModelCheckpoint
-filepath = 'best_mnist_model.h5'
+filepath = '../model/best_mnist_model.h5'
 
 checkpoint_callback = keras.callbacks.ModelCheckpoint(
     filepath=filepath,
